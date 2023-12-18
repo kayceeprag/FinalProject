@@ -14,7 +14,7 @@ const gridContainer = d3.select('body').append('div')
 const tooltip = d3.select("#tooltip");
 
 // Load data from CSV file
-d3.csv('../data/ArtworkMOMA.csv').then(function (data) {
+d3.csv('ArtworkMOMA.csv').then(function (data) {
   // Parse the date
   const parseTime = d3.timeParse('%Y');
 
